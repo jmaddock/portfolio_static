@@ -1,0 +1,27 @@
+body { 
+  padding-bottom: 50px;
+  padding-top: 70px; 
+}
+
+.navbar-fixed-top {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.navbar-row {
+  padding-top: 10px;
+  padding-botton: 10px;
+}
+
+div.post {
+  overflow: visible;
+}
+
+.glyphicon {
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}

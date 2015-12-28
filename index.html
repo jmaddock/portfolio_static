@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+{% autoescape true %}
+
+<head>
+    <title>Jim Maddock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="http://tgt-dev.appspot.com/static/css/local_styles.css">-->
+    <link rel="stylesheet" href="static/css/local_styles.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src='http://tgt-dev.appspot.com/static/js/moustache.js'></script>
+    
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row navbar-row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#top">Jim Maddock</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="top">
+                <img src="static/img/banner2.jpg" alt="..." class="img-responsive">
+            </div>
+            
+            
+            <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2">
+                <br>
+                <br>
+                <!-- list of posted good things -->
+                <div id="about">
+                    <h1>About</h1>    
+                    <p>I am a first year PhD Student in the Technology and Social Behavior program at Northwestern University, which is a joint degree in Computer Science and Communications. I currently work with Darren Gergle, studying collaboration and coordination dynamics across different langugae speaking peer-production and collective action communities.</p>
+                    <p>My research leverages both qualitative and quantitative methodologies in order to describe complex human behavior, interactions, relationships, and ovarching social mechanisms with both breadth and depth.  I combine "big-data" and graph based analytical techniques, machine learning and natural language processing, and qualitative coding.  I prefer to program in program in Python and UNIX.</p>
+                    <p><a href="#publications">View my publications online</a> or <a href="static/pdf/cv.pdf">download my CV</a></p>
+                </div>
+                <hr>
+                <div id="projects">
+                    <h1>Projects</h1>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                            <h2>Hyper-Lingual Collaboration</h2>
+                            <p>We use mixed method techniques to compare collaboration dynamics across different language communities, thereby expanding our understanding beyond the bounds of English speaking groups, surfacing mechanisms that result in content variation, and informing design solutions to better support global peer production.  Our initial study uses a combination of network analysis and qualitative coding to explore Wikipedia talk and article pages from the top 25 largest language editions.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                            <h2>Rumoring During Crisis</h2>
+                            <p>This crisis informatics project explored rumoring behavior on social media during crisis situations. I used mixed “big-data” methods to analyze a ten million Tweet dataset from the Boston Marathon Bombings and to build toward machine learning based automatic detection. I published a paper to the 2015 ACM CSCW conference a short paper to the 2014 iConference, which won the “Best Note” award.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="glyphicon glyphicon-font" aria-hidden="true"></span>
+                            <h2>Mixed Language Identification</h2>
+                            <p>At Microsoft Research India I helped to build and refine a multilingual identification system that could classify bi-lingual Tweets across thirty Latin script languages in order to better understand textual code-mixing, and to ultimately inform the design of multilingual applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="publications">
+                    <h1>Publications and Posters</h1>    
+                    <h2>Conference Publications, Reviewed in Full</h2>
+                    <p>Starbird, K., Spiro, E., Edwards, I., Zhou, K., Maddock, J., and Narashimhan, S. (2016). Could this be true? I think so! Expressed Uncertainty in Online Rumoring. Accepted to 2016 SIGCHI conference on human factors in computing systems (CHI 2016). ACM.</p>
+                    <p>Robinson, J., Maddock, J., Starbird, K. (2015) Examining the Role of Human and Technical Infrastructure in Improvisation during Emergency Response. 2015 Information Systems for Crisis Response and Management Conference (ISCRAM 2015), Kristiansand, Norway. <a href="static/pdf/improvisation.pdf">(PDF)</a></p>
+                    <p>Maddock, J., Starbird, K., Al-Hassani, H., Sandoval, D., Orand, M., & Mason, R.M. (2015). Characterizing Online Rumoring Behavior Using Multi-Dimensional Signatures. CSCW 2015, Vancouver, Canada. <a href="static/pdf/characterizing.pdf">(PDF)</a></p>
+                    <p>Starbird, K., Maddock, J., Orand, M., Achterman, P., & Mason, R.M. (2014). Rumors, False Flags, and Digital Vigilantes: Misinformation on Twitter after the 2013 Boston Marathon Bombing. iConference 2014, Berlin, Germany. (Best Note award) <a href="static/pdf/misinformation.pdf">(PDF)</a></p>
+                    <h2>Poster, Workshops, and Non-Archival Publications</h2>
+                    <p>Walls, L., Maddock, J., Starbird, K., and Spiro E. (2015). What Should Count?: A Quantitative Approach to Scoping Rumors in Social Media. Social Media & Society Conference 2015, Toronto, Ontario, Canada <a href="">(PDF)</a></p>
+                    <p>Starbird, K., Emma, S., Ahmer, A., Fang-Ju C., Narisimhan, S., Maddock, J. Shanahan K., and Robinson, J. (2015). Expressed Uncertainty and Denials as Signals of Online Rumoring. Collective Intelligence 2015, San Francisco, CA. <a href="static/pdf/uncertainty_wip.pdf">(PDF)</a></p>
+                    <p>Maddock, J., Starbird, K. (2015). Using Historical Twitter Data for Research: Ethical Challenges of Tweet Deletions. Presented at CSCW  ’15 Workshop on Ethics at the 2015 Conference on Computer Supported Cooperative Work (CSCW 2015), Vancouver, Canada. <a href="static/pdf/deletion_ethics.pdf">(PDF)</a></p>
+                    <p>Maddock, J. (2014). Characterizing Online Rumoring Behavior: Multi-Dimensional Signatures. Poster presented at 2014 University of Washington Human Computer Interaction and Design Retreat, Seattle, WA.</p>
+                    <p>Maddock, J. (2014). Misinformation on Twitter after the 2013 Boston Marathon Bombing: Qualitative and Quantitative Signature Analysis. Poster presented at 2013 University of Washington Undergraduate Research Symposium, Seattle, WA.</p>
+                    <p>Maddock, J. (2014). Misinformation on Twitter after the 2013 Boston Marathon Bombing. Poster presented at 2013 University of Washington Human Computer Interaction and Design Retreat, Seattle, WA.</p>
+                    <p>Munson, S,. Chung, C., Maddock, J. (2013). Swellness: Social Software for Wellness. Poster presented at 2012 University of Washington Human Computer Interaction and Design Retreat, Seattle, WA.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- some footer related stuff -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="text-center text-muted">Developed by Jim Maddock | maddock@u.northwestern.edu | Google App Engine + Bootstrap 3</h6>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+</html>
+{% endautoescape %}
