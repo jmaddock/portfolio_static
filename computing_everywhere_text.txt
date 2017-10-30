@@ -1,0 +1,38 @@
+== About this Class
+
+Welcome to the website for Computing Everywhere Workshop #3: The Structure of the Web, taught by Jim Maddock and Matthew Heston.  We'll use this website for a few in class exercises, as well as a general resource since we don't have a powerpoint.  If you have any questions, feel free to use the "contact" links in the header and footer of the page.
+
+=== About the Instructors ===
+
+Matthew Heston is a doctoral student in the Technology and Social Behavior PhD program. He researches how people communicate in online settings.
+
+Jim Maddock is a first year PhD Student in the Technology and Social Behavior program. He studies collaboration, coordination, and information diffusion in online communities such as Wikipedia and Twitter.
+
+HTML, or hyper text markup language, is the foundation of websites.  HTML is code that is read by your browser, used to both structure and add content to a website.  You can identify HTML by the angle brackets that surround code, for instance &#60html&#62 or &#60p&#62.  Some common HTML tags are: 
+
+<p>
+<h1>
+<h2>
+<hr>
+<nav>
+<br>
+<img>
+<a href>
+<body>
+
+In order to view the source code of a web page, just right click on a blank space of the page (where there is no text, images, or links), then click "view page source".  To use the Chrome developer console, right click on a blank space, then click "inspect".
+
+While HTML is used to structure a web site, CSS is used to style it.  At the top of a web page, look for a tag that looks something like: &#60link rel="stylesheet" href="..."&#62.  This is the link to the "stylesheet", or the file that contains CSS code.  You can use the right side of the developer console in chrome to experiment with changing the CSS of a web site.  Try these examples:
+
+Change the font size of one header element
+Change the font color of one paragraph element
+Center the text in a paragraph element
+Change the font size for all header elements
+Change the banner image
+Add Italics or bold a sentence
+
+Javascript is code used to make a website interactive or dynamic.  We won't talk much about Javascript in this workshop, but generally speaking when you see an element of a website change (think of a drop-down menu, a Facebook notification, or a pop up add), this is done with Javascript.  Javascript is important because it allows websites to change without re-loading the entire web page.
+
+Sometimes Javascript code will appear nested in the HTML (most of the confusing parts of Facebook and Google source code are Javascript!), and other times it's contained in a separate link.  Look for a tag that looks something like: &#60script src="..."&#62, or just &#60script src="..."&#62.
+
+There's so much more to know beyond what we covered in this workshop!  If you want to learn more, these are good places to start:
